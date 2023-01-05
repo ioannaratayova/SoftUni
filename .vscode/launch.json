@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Basics\\1. First Steps In Coding\\4. Inches to Centimeters.js"
+            "program": "${workspaceFolder}\\Basics\\IONKA.js"
         }
     ]
 }

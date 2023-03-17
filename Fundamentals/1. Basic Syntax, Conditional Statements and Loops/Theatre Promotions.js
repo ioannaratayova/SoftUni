@@ -8,7 +8,7 @@ function theatrePromotions(arg1, arg2) {
     if (typeOfDay == 'Weekday') {
         if (age >= 0 && age <= 18 || age > 64 && age <= 122) {
             console.log(`12$`);
-        }
+        } 
         else if (age > 18 && age <= 64) {
             console.log(`18$`);
         }

@@ -9,7 +9,7 @@ function meetings(arr) {
         else {
             meetings[weekday] = name;
             console.log(`Scheduled for ${weekday}`);
-        
+        }
     }
     for (let meet in meetings) {
         console.log(`${meet} -> ${meetings[meet]}`);

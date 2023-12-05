@@ -8,6 +8,7 @@ function solve() {
         if (command == 'report') {
             return `protein=${protein} carbohydrate=${carbohydrate} fat=${fat} flavour=${flavours}`
         }
+        
         else if (command == 'restock') {
             if (second == 'protein') { protein += Number(qty) }
             else if (second == 'fat') { fat += Number(qty) }
